@@ -1,6 +1,7 @@
-Link to the deployed application:
+Link to the deployed application: [https://news-aggregator-c5258pwtr-us-projects-70ccb24b.vercel.app/](https://news-aggregator-c5258pwtr-us-projects-70ccb24b.vercel.app/)
+Post fetching does not work in the above link because `newsapi.org` does not allow requests from browser in the free developer plan.
 
-Link to the test coverage report:
+Link to the test coverage report: [https://na-test-report.vercel.app/](https://na-test-report.vercel.app/)
 
 ## Self-assessment
 
@@ -20,4 +21,4 @@ Jest and React Testing Library are used for robust unit and integration tests. C
 All required features—dark mode, error handling, bookmarks, responsive header, search, and secure API key usage—are implemented and tested. Edge cases and error states are handled gracefully.
 
 **Bonus points for additional features or exceptional optimizations:**
-The project includes a test-only Babel config for optimal build speed, detailed error UI, and a clean, extensible architecture. The codebase is ready for further enhancements and scaling.
+The project includes a fully functional dark mode and a feature to bookmark articles. This state is also persisted through localStorage. The codebase is ready for further enhancements and scaling.
