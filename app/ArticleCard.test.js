@@ -2,10 +2,11 @@ import React from "react";
 import { render, screen, fireEvent } from "@testing-library/react";
 import ArticleCard from "./ArticleCard";
 
-// Mock next/image to render a simple img
-jest.mock("next/image", () => (props) => {
-  // eslint-disable-next-line jsx-a11y/alt-text
-  return <img {...props} />;
+// Mock next/image to render a simple img with display name
+jest.mock("next/image", () => {
+  const MockImage = (props) => <img {...props} />;
+  MockImage.displayName = "Image";
+  return MockImage;
 });
 
 // Mock localStorage
