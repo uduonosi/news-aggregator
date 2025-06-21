@@ -1,0 +1,62 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Global styles for News Aggregator */
+
+:root {
+  --color-primary: #2563eb;
+  --color-border: #d4d4d8;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100%;
+  font-family: system-ui, sans-serif;
+  background: #f4f4f5;
+  color: #18181b;
+  transition: background 0.2s, color 0.2s;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+a.underline {
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #e4e4e7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #a1a1aa;
+  border-radius: 4px;
+}
+
+/* Utility classes for transitions */
+.transition-colors {
+  transition: color 0.2s, background 0.2s, border-color 0.2s;
+}
+
+/* Responsive container */
+.max-w-7xl {
+  max-width: 80rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
