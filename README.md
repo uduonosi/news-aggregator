@@ -54,6 +54,21 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Screenshots
 
+_Home page_
+![Home page](screenshots/home.png)
+
+_Search page_
+![Search page](screenshots/search.png)
+
+_Home page dark mode_
+![Home page dark mode](screenshots/home-dark.png)
+
+_Home page on mobile_
+![Home page on mobile](screenshots/home-mobile.png)
+
+_Search page on mobile_
+![Search page on mobile](screenshots/search-mobile.png)
+
 ## Performance Optimizations
 
 - **Next.js Image Optimization:** Uses the `Image` component for automatic image resizing, lazy loading, and format selection.
